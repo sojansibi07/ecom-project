@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                font-family: monospace;
+            }
+            #calcmain{
+                width: 500px;
+                height: 300px;
+                background-color: #e1e1e1;
+                position: relative;
+                margin-top: 15vh;
+                margin-left: 70vh;
+            }
+            #calcdisplay{
+                margin-top: 30px;
+                margin-left: 20px;
+                width: 460px;
+                height: 70px;
+                background-color: #ffff;
+                position: absolute;
+                justify-content: right;
+                display: flex;
+            }
+            .display{
+                padding-right: 20px;
+                width: 50%;
+            }
+            #calcinput{
+                padding: 0;
+                display: flex;
+                position: absolute;
+                margin-top: 130px;
+                margin-left: 20px;
+                width: 460px;
+                height: 90px;
+            }
+            .Bproc{
+                margin: 4px;
+                background-color: #ffff;
+                border: 1px solid black;
+                width: 100px;
+                height: 70px;
+            }
+            #calcoutput{
+                position: absolute;
+                margin-top: 220px;
+                display: flex;
+                justify-content: right;
+                width: 460px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="width: 100%; height: 100%;align-items: center;">
+            <h1 style="display: flex;margin-left: 90vh;margin-top: 100px;">Calculator  0_0</h1>
+            <div id="calcmain">
+                <div id="calcdisplay">
+                    <input type="number" class="display" placeholder="First Num" >
+                    <input type="number" class="display" placeholder="Second Num">
+                </div>
+                <div id="calcinput">
+                    <div id="Bnums">
+                        <button class="Bproc">Add +</button>
+                        <button class="Bproc">Sub -</button>
+                        <button class="Bproc">Mul x</button>
+                        <button class="Bproc">Div /</button>
+                    </div>
+                </div>
+                <div id="calcoutput">
+                    <h1 id="outputdisplay">0</h1>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

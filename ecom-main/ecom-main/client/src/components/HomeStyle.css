@@ -1,0 +1,45 @@
+.BodyHome{
+    margin: 0px;
+    margin-top: -105px;
+    padding: 0px;
+    z-index: -1;
+    position: absolute;
+    font-family: monospace;
+    width: 100%;
+    height: auto;
+    background-size: 100%;
+    animation-play-state: paused;
+    background-color: #fefcda;
+    background-size: 100%;
+
+}
+
+.prods{
+    border: 3px solid black;
+    border-radius: 12px;
+    width: 400px;
+    height: auto;
+    padding: 20px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.prods h2{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+.prods h1{
+    font-family: monospace;
+    font-size: 20px;
+}
+.prods span{
+    font-size: 14px;
+    margin: 5px;
+}
+.prods h3{
+    font-family: monospace;
+    font-size: 16px;
+}

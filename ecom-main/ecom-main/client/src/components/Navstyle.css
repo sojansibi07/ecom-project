@@ -1,0 +1,49 @@
+.BodyNav{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    background-size: 100%;
+    overflow: hidden;
+    border-bottom: 2px solid black;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: white;
+}
+.nav-buttons{
+    transition: 0.4s;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.nav-buttons:hover{
+    transition: 0.2s;
+    height: 50px;
+    background-color: #41886F;
+}
+
+@keyframes  loop {
+20%{
+background-position: left;
+}
+40%{
+background-position: center;
+}
+60%{
+background-position: right;
+}
+80%{
+background-position: center;
+}
+100%{
+background-position: left;
+}
+}

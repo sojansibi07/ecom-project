@@ -1,0 +1,180 @@
+.BodyRegister{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+    font-family: monospace;
+    height: 100%;
+    width: 100%;
+	background-repeat: no-repeat;
+    background-size: 100%;
+    animation-play-state: paused;
+    background-image:  url('Res/bg2.jpg');
+	animation: loop 240s linear infinite;
+}
+.RegisterForm{
+	transition: 1s;
+	width: 420px;
+	height: 1000px;
+	background: #202020;
+	margin: auto;
+	margin-top: 50px;
+	border-top: 4px solid white;
+	padding: 30px;
+}
+.RegisterForm h1{
+	transition: 1.10s;
+	margin-right: 10px;
+	color: white;
+	text-transform: uppercase;
+  text-align: center;
+	font-size: 30px;
+  height: 50px;
+	width: 100%;
+  border-bottom: 2px solid ;
+  margin-bottom: 40px;
+	font-family: sans-serif;
+}
+.RegisterForm h3{
+	color: white;
+}
+.Uname{
+	border:0;
+	background: #212121;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 16px 10px;
+	width: 280px;
+	font-family: monospace;
+	font-size: 18px;
+	height: 30px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.20s;
+}
+.Email{
+	border:0;
+	background: #212121;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 16px 10px;
+	width: 280px;
+	font-family: monospace;
+	font-size: 18px;
+	height: 30px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.20s;
+}
+.Pwsd{
+	border:0;
+	background: #212121;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 16px 10px;
+	width: 280px;
+	font-family: monospace;
+	font-size: 18px;
+	height: 30px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.30s;
+}
+.PwsdRe{
+	border:0;
+	background: #212121;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid white;
+	padding: 16px 10px;
+	width: 280px;
+	font-family: monospace;
+	font-size: 18px;
+	height: 30px;
+	outline: none;
+	color: white;
+	border-radius: 24px;
+	transition: 1.30s;
+}
+.Pwsd:focus{
+	width: 320px;
+	border-color: #2ecc71;
+}
+.PwsdRe:focus{
+	width: 320px;
+	border-color: #2ecc71;
+}
+.Uname:focus{
+	width: 320px;
+	border-color: #2ecc71;
+}
+.Email:focus{
+	width: 320px;
+	border-color: #2ecc71;
+}
+.Buttonl:hover{
+	transition: 0.50s;
+	color: white;
+    background: #0d99a7
+
+}
+
+.Buttonl{
+  border: none;
+  font-family: monospace;
+  font-size: 22px;
+margin-left: 60px;
+  width: 300px;
+height: 62px;
+  background: white;
+	border-radius: 30px;
+  color: #070F2B;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.RegisterForm a{
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+}
+.RegisterForm a:hover{
+text-decoration: underline;
+}
+h1{
+    font-size: 20px;
+}
+#incorrect{
+	text-align: center;
+	color: #fa509c;
+	margin-top: -10;
+	margin-left: 6px;
+	font-size: 11px;
+	visibility: hidden;
+}
+p{
+	color: white;
+	font-size: 8px;
+	font-family: sans-serif;
+	margin-top: 30px;
+	text-align: left;
+	margin-left: -27px;
+}
+@keyframes  loop {
+	20%{
+		background-position: left;
+	}
+	80%{
+		background-position: center;
+	}
+}

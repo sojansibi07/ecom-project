@@ -1,0 +1,14 @@
+.BodyError{
+    margin: 0px;
+    margin-top: -105px;
+    padding: 0px;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+    font-family: monospace;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    animation-play-state: paused;
+    background-image:  url('Res/bg1.jpg');
+}
